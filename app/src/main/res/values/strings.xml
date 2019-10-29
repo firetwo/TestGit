@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LearnCodeFromPPCAndroid</string>
+
+    <!--Test Butter Knife-->
+
+    <string name="test_string">Test String</string>
+</resources>
