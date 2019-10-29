@@ -26,7 +26,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Log.e("HEY","I wanna make some changes to know in detail Git");
         ButterKnife.bind(this);
         btnTest.setOnClickListener(v -> Log.e(TAG, "onClick: yes" ));
     }
