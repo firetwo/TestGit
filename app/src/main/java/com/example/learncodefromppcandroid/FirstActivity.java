@@ -2,6 +2,7 @@ package com.example.learncodefromppcandroid;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -30,6 +31,7 @@ public class FirstActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_first);
         ButterKnife.bind(this);
+        Log.e("Update","First Acitivity");
         btnSendData.setOnClickListener(v -> {
             String input_data = edtInputData.getText().toString().trim();
             Intent intent = new Intent(FirstActivity.this, SecondActivity.class);
