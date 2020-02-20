@@ -31,7 +31,7 @@ public class FirstActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_first);
         ButterKnife.bind(this);
-        Log.e("Update","First Acitivity");
+        Log.e("Update","First Acitivity Module");
         btnSendData.setOnClickListener(v -> {
             String input_data = edtInputData.getText().toString().trim();
             Intent intent = new Intent(FirstActivity.this, SecondActivity.class);
